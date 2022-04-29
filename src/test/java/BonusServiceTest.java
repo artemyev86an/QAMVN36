@@ -18,6 +18,7 @@ public class BonusServiceTest {
         assertEquals(expected, actual);
     }
 
+
     @org.junit.jupiter.api.Test
     void shouldCalculateForRegisteredAndOverLimit() {
         BonusService service = new BonusService();
@@ -33,4 +34,6 @@ public class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
+
+
 }
